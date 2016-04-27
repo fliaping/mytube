@@ -3,7 +3,7 @@ a video sharing system base on docker and clipbucket
 
 基于docker和 [clipbucket](http://clip-bucket.com/) 的视频分享系统,其实就是把clipbucket安装在docker上，并做了汉化和修改。
 
-当前版本v1.0，有关特性和不足请看这里[]()
+当前版本v1.0，有关特性和不足请看这里 [v1.0](https://github.com/paynexu/mytube/tree/master/docker/v1.0)
 
 这里简要说明如何使用，**详细的使用方法请阅读我的博客文章**
 
