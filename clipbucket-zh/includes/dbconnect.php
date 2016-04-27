@@ -14,7 +14,7 @@
 	//Database Username
 	$DBUSER = 'root';
 	//Database Password
-	$DBPASS = 'VideoSql2015Shzu';
+	$DBPASS = '123';
 	//Setting Table Prefix
 	define('TABLE_PREFIX','cb_');
 
