@@ -13,3 +13,23 @@
 
 * 汉化不完全，因为这个官方的模板一些短语是直接写在代码中的，语言包不好做，另外个人时间有限，所以目前的汉化率在80%
 * 后台管理完全没有汉化，原因同上，时间有限
+
+## 下载镜像
+镜像大小为1.3G
+
+国内下载点
+
+```bash
+# Daocloud下载点
+docker pull daocloud.io/xuping/clipbucket:v1.0
+
+# 灵雀云下载点
+sudo docker pull index.alauda.cn/xuping/clipbucket:v1.0
+```
+国外下载点
+
+```bash
+# docker hub 下载点
+sudo docker pull xuping/clipbucket:v1.0
+
+```
