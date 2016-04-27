@@ -109,5 +109,30 @@ rm -r /var/www/html/files
 ln -s /data/files/ /var/www/html/
 ls -l /var/www/html/files
 ```
+## 修改密码
+
+为了方便，默认的密码比较简单，在你部署好镜像之后一定要**修改密码**，需要修改的有系统的root密码，mysql的root密码。
+
+```bash
+# 修改系统root密码
+passwd root
+
+# 修改mysql的root密码
+# 登陆mysql,默认密码123
+mysql -uroot -p
+
+mysql> use mysql;
+mysql> update user set password=PASSWORD("你的密码") where User='root';
+mysql> flush privileges;
+
+```
+修改clipbucket配置文件中的mysql密码
+
+```bash
+vi /var/www/html/includes/dbconnect.php
+
+# 修改$DBPASS = '123';中的123为你的密码。
+```
 
 # 更多内容请阅读博客
+[基于Docker的开源视频分享系统解决方案](http://blog.xvping.cn/2016/04/24/a-solution-of-open-source-video-sharing-system-based-on-docker/)
