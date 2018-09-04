@@ -7,7 +7,7 @@ a video sharing system base on docker and clipbucket
 
 这里简要说明如何使用，**详细的使用方法请阅读我的博客文章**
 
-[基于Docker的开源视频分享系统解决方案](http://blog.xvping.cn/2016/04/24/a-solution-of-open-source-video-sharing-system-based-on-docker/)
+[基于Docker的开源视频分享系统解决方案](https://blog.fliaping.com/a-solution-of-open-source-video-sharing-system-based-on-docker/)
 
 # clipbucket概述
 
@@ -137,4 +137,4 @@ vi /var/www/html/includes/dbconnect.php
 ```
 
 # 更多内容请阅读博客
-[基于Docker的开源视频分享系统解决方案](http://blog.xvping.cn/2016/04/24/a-solution-of-open-source-video-sharing-system-based-on-docker/)
+[基于Docker的开源视频分享系统解决方案](https://blog.fliaping.com/a-solution-of-open-source-video-sharing-system-based-on-docker/)
